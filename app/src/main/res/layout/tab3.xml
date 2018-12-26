@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TabbedActivity">
+
+    <TextView
+        android:id="@+id/konumm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/konumm"
+        android:layout_alignTop="@+id/konumm"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="1dp"
+        android:text="Konum2"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="186dp"
+        android:layout_alignLeft="@+id/konumm"
+        android:layout_marginLeft="181dp" />
+
+    <Button
+        android:id="@+id/konumal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="263dp"
+        android:text="Konum Al"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="31dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="68dp" />
+
+    <TextView
+        android:id="@+id/konumm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="336dp"
+        android:text="Konum1"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="117dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="66dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/spinner"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="187dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Mekan Adı"
+        android:layout_alignLeft="@+id/spinner" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/spinner"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="74dp"
+        android:text="Tamam"
+        android:layout_alignRight="@+id/spinner" />
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TabbedActivity">
+
+    <ListView
+        android:id="@+id/liste"
+        android:layout_width="227dp"
+        android:layout_height="311dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button5"
+        android:layout_alignTop="@+id/_dynamic"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignRight="@+id/button"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="32dp"
+        android:text="OTEL"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button4"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignRight="@+id/button"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="30dp"
+        android:text="GEZİLECEK YERLER"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="132dp"
+        android:text="HASTANE"
+        tools:ignore="RtlCompat,UnknownId" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button3"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_marginBottom="33dp"
+        android:text="RESTORAN"
+        tools:ignore="UnknownId" />
+
+    <SearchView
+        android:layout_width="212dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp" />
+</RelativeLayout>
