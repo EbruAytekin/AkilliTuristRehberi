@@ -20,7 +20,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TabbedActivity"
+        <activity
+            android:name=".TabbedActivity"
             android:label="@string/title_activity_tabbed"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -40,6 +41,9 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAuZqW9ARlJxIJ7Z_jB0XUg3GgDf2jevr0"/>
 
         <activity
             android:name=".MapsActivity"

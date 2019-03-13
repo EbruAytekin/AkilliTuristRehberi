@@ -7,4 +7,8 @@
     <string name="tab_text_3">Veri Ekle</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_otel_maps">Map</string>
+    <string name="title_activity_hastane_maps">Map</string>
+    <string name="title_activity_restoran_maps">Map</string>
+    <string name="directionsapikey">AIzaSyAuZqW9ARlJxIJ7Z_jB0XUg3GgDf2jevr0</string>
 </resources>

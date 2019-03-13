@@ -1,18 +1,17 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:map="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -21,40 +20,34 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/textView19"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Mekan Ad:" />
+                    android:text="Mekan Adı:" />
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/textView20"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Kategori Adı:" />
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/textView21"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kartla Giriş:" />
+                    android:text="Yatak Sayısı:" />
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:id="@+id/textView22"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Tür:" />
+                    android:text="Hastane Türü:" />
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/textView44"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Piknik İmkanı:" />
-
-                <TextView
-                    android:id="@+id/textView6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Restoran:" />
+                    android:text="Randevu Alma:" />
             </LinearLayout>
 
             <LinearLayout
@@ -63,37 +56,31 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView9"
+                    android:id="@+id/textView23"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="TextView" />
 
                 <TextView
-                    android:id="@+id/textView10"
+                    android:id="@+id/textView24"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Gezilecek Yerler" />
+                    android:text="Hastane" />
 
                 <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="TextView" />
-
-                <TextView
-                    android:id="@+id/textView58"
+                    android:id="@+id/textView25"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="TextView" />
 
                 <TextView
-                    android:id="@+id/textView59"
+                    android:id="@+id/textView26"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="TextView" />
 
                 <TextView
-                    android:id="@+id/textView60"
+                    android:id="@+id/textView45"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="TextView" />
@@ -101,7 +88,7 @@
         </LinearLayout>
 
         <fragment
-            android:id="@+id/map"
+            android:id="@+id/hastanemap"
             class="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="match_parent"
             android:layout_height="310dp"
@@ -116,7 +103,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_Sat"
+                android:id="@+id/btn_Sathastane"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -125,7 +112,7 @@
                 android:text="Uydu" />
 
             <ZoomControls
-                android:id="@+id/zoom"
+                android:id="@+id/zoomhastane"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -135,5 +122,4 @@
 
     </LinearLayout>
 
-
-</RelativeLayout>
+</android.support.constraint.ConstraintLayout>
